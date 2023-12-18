@@ -1,0 +1,64 @@
+
+
+.hero {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 80vh; /* Adjust the height as needed */
+    text-align: flex;
+    font-size: 50px;
+    color: rgb(251,251,214);
+    background-image: -o-linear-gradient('./public/images/hero.jpg');
+    
+}
+
+.hero h1 {
+    margin: 0;
+    padding: 10px;
+    font-family: Jazz LET, fantasy;
+    font-size: 5.5rem;
+    margin-bottom: 0.5rem;
+    margin-right: 50%;
+    margin-top: 50%;
+}
+
+.hero p {
+    margin: 0;
+    padding: 10px;
+    font-size: 2.5rem;
+    margin-bottom: 6rem;
+    margin-left: 50%;
+    font-family: Helvetica, sans-serif;
+    
+}
+.button {
+    background-color: #6A381F; /* Green background */
+    color: rgb(251,251,214); /* White text */
+    padding: 15px 30px; /* Top and bottom padding 15px, left and right padding 30px */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor changes to a hand icon when you hover over the button */
+    font-size: 16px; /* Font size */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transition for background and shadow */
+    margin-right: 25%;
+    margin-bottom: .8%;
+}
+
+.button:hover {
+    background-color: black; /* Darker shade of green when hovered */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Shadow effect on hover */
+}
+
+.button:active {
+    background-color: rgb(251,251,214); /* Even darker green when clicked */
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2); /* Smaller shadow effect when clicked */
+}
+
+@media (max-width: 1000px) {
+    .hero {
+        height: 300px; /* Smaller height for mobile devices */
+    }
+}
+

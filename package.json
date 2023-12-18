@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "@nextui-org/react": "^2.2.9",
+    "framer-motion": "^10.16.9",
+    "next.js": "^1.0.3",
+    "node": "^21.1.0",
+    "playwright": "^1.40.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.1"
+  }
+}
